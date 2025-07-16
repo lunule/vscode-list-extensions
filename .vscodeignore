@@ -5,6 +5,7 @@ src/
 .vscode/
 
 # Build config files
+package-lock.json
 tsconfig.json
 
 # Node.js junk not needed at runtime

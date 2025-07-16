@@ -5,18 +5,21 @@
 	"version": "0.0.1",
 	"publisher": "holdeniscoding",
 	"repository": {
-	  "type": "git",
-	  "url": "https://github.com/lunule/vscode-list-extensions.git"
+		"type": "git",
+		"url": "https://github.com/lunule/vscode-list-extensions.git"
 	},
 	"bugs": {
-	  "url": "https://github.com/lunule/vscode-list-extensions/issues"
+		"url": "https://github.com/lunule/vscode-list-extensions/issues"
 	},
-	"homepage": "https://github.com/lunule/vscode-list-extensions#readme",	
+	"homepage": "https://github.com/lunule/vscode-list-extensions#readme",
 	"engines": {
 		"vscode": "^1.70.0"
 	},
 	"categories": [
 		"Other"
+	],
+	"activationEvents": [
+		"onCommand:extension.listExtensions"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -34,12 +37,16 @@
 		"package": "vsce package"
 	},
 	"devDependencies": {
-	    "@types/vscode": "^1.70.0",
-	    "typescript": "^5.8.3",
-	    "vsce": "^2.15.0"
+		"@types/vscode": "^1.70.0",
+		"typescript": "^5.8.3",
+		"vsce": "^2.15.0"
 	},
 	"dependencies": {},
- 	"keywords": ["vscode", "extensions", "list"],
+	"keywords": [
+		"vscode",
+		"extensions",
+		"list"
+	],
 	"author": "Holden Caulfield <lunule.creations@gmail.com>",
 	"license": "MIT"
 }
