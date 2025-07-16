@@ -1,2 +1,11 @@
-# vscode-list-extensions
-A super-simple VSCode extension that lists your installed extensions in a new tab. Save the output as a .csv and keep your setup tidy.
+# List VSCode Extensions
+
+List your installed VSCode extensions in a new tab — simple, plain text, ready to save as `.csv`.
+
+## Usage
+
+Run the `List Installed Extensions` command from the Command Palette. Save the output manually.
+
+---
+
+Enjoy! 🎉
