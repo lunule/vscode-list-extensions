@@ -1,0 +1,45 @@
+{
+	"name": "vscode-list-extensions",
+	"displayName": "List Installed Extensions",
+	"description": "A super-simple VSCode extension that lists your installed extensions in a new tab. Save the output as a .csv and keep your setup tidy.",
+	"version": "0.0.1",
+	"publisher": "holdeniscoding",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/lunule/vscode-list-extensions.git"
+	},
+	"bugs": {
+	  "url": "https://github.com/lunule/vscode-list-extensions/issues"
+	},
+	"homepage": "https://github.com/lunule/vscode-list-extensions#readme",	
+	"engines": {
+		"vscode": "^1.70.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "listExtensions",
+				"title": "List Installed Extensions"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"package": "vsce package"
+	},
+	"devDependencies": {
+	    "@types/vscode": "^1.70.0",
+	    "typescript": "^5.8.3",
+	    "vsce": "^2.15.0"
+	},
+	"dependencies": {},
+ 	"keywords": ["vscode", "extensions", "list"],
+	"author": "Holden Caulfield <lunule.creations@gmail.com>",
+	"license": "MIT"
+}

@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# VSCode extension build output
+out/
+
+# VSCode settings (optional)
+.vscode/
+
+# Logs
+*.log
+
+# Compiled vsix files
+*.vsix
+
+# TypeScript build info
+*.tsbuildinfo
+
+# OS crap
+.DS_Store
+Thumbs.db

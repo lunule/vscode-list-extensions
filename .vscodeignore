@@ -1,0 +1,32 @@
+# Exclude source code (we only ship compiled JS)
+src/
+
+# VSCode project settings folder (local config)
+.vscode/
+
+# Build config files
+tsconfig.json
+
+# Node.js junk not needed at runtime
+node_modules/**/tslint*
+node_modules/**/mocha*
+node_modules/**/typescript*
+node_modules/**/@types*
+node_modules/**/ts-node*
+node_modules/**/eslint*
+*.tsbuildinfo
+
+# Test and dev files/folders
+test/
+tests/
+
+# Git metadata (no need to ship)
+.gitignore
+.git/
+
+# Docs and license (usually no need, but depends on you)
+.vscodeignore
+
+# OS junk files
+.DS_Store
+Thumbs.db
